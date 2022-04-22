@@ -1,0 +1,49 @@
+.header{
+    background-color: #FE2E90;
+}
+
+.navbar{
+    background-color:#FAF8EE ;
+}
+
+.bottom{
+    background-color: #FAF8EE;
+}
+
+.image{
+    width: 20%;
+    height: 20%;
+}
+
+.menu{
+    background-color: #383636;
+    height: 60vh;
+    overflow-x: hidden;
+}
+
+.card{
+    background-color: ##FAF8EE;
+}
+
+.btn{
+    background-color: #FE2E90;
+    color: #2E2B2A;
+}
+.footer{
+    background-color:#FE2E90 ;
+}
+
+.logo{
+    width: 40%;
+    height: auto;
+}
+
+.copyright{
+    color: #2E2B2A;
+}
+
+.badge{
+    background-color: #4B3A33;
+    padding: 1rem;
+}
+
