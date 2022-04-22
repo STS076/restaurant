@@ -18,19 +18,17 @@
 .menu{
     background-color: #383636;
     height: 60vh;
-    overflow-x: hidden;
 }
 
-.card{
-    background-color: ##FAF8EE;
-}
 
 .btn{
     background-color: #FE2E90;
     color: #2E2B2A;
 }
+
 .footer{
-    background-color:#FE2E90 ;
+    background-color:#FE2E90;
+    color: #2E2B2A;
 }
 
 .logo{
@@ -38,12 +36,15 @@
     height: auto;
 }
 
-.copyright{
-    color: #2E2B2A;
-}
+
 
 .badge{
     background-color: #4B3A33;
     padding: 1rem;
+}
+
+.rs{
+    width: 3%;
+    height: auto;
 }
 

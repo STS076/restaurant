@@ -24,484 +24,481 @@
 
 
 
-    <div class="container-fluid">
-        <div class="row text-center pt-5 pb-5 header">
-            <div class="col-lg-12 col-12">
-                <div class="fw-bold"><img class="logo" src="assets/logosushi.png">
-                </div>
+
+    <div class="row text-center pt-5 pb-5 header">
+        <div class="col-lg-12 col-12">
+            <div class="fw-bold"><img class="logo" src="assets/logosushi.png" alt="logosushimakers">
             </div>
         </div>
     </div>
+
 
     <!--  -->
     <!-- NAVBAR -->
     <!--  -->
 
-    <div class="container-fluid">
-        <div class="row ">
-            <nav class="navbar navbar-expand-lg navbar-light  ">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
-                        <img class="image rounded-circle" src="assets/sushimakers.png">
-                    </a>
+    <!-- <div class="container-fluid"> -->
 
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+    <nav class="navbar navbar-expand-lg navbar-light  ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="image rounded-circle" src="assets/sushimakers.png">
+            </a>
 
-                    <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
-                        <a class="nav-link active text-dark fs-3" aria-current="page" href="#entrées">Entrées</a>
-                        <a class="nav-link active text-dark fs-3" aria-current="page" href="#plats">Plats</a>
-                        <a class="nav-link active text-dark fs-3" aria-current="page" href="#desserts">Desserts</a>
-                        <a class="nav-link active text-dark fs-3" aria-current="page" href="#boissons">Boissons</a>
-                    </div>
-                </div>
-            </nav>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+                <a class="nav-link active text-dark fs-3" aria-current="page" href="#entrées">Entrées</a>
+                <a class="nav-link active text-dark fs-3" aria-current="page" href="#plats">Plats</a>
+                <a class="nav-link active text-dark fs-3" aria-current="page" href="#desserts">Desserts</a>
+                <a class="nav-link active text-dark fs-3" aria-current="page" href="#boissons">Boissons</a>
+            </div>
         </div>
-    </div>
+    </nav>
+
 
     <!--  -->
     <!-- ENTREES -->
     <!--  -->
 
+    <div id="entrées" class="row menu justify-content-around">
 
-    <!--  -->
-    <!-- SALADES -->
-    <!--  -->
+        <!--  -->
+        <!-- SALADES -->
+        <!--  -->
 
-    <div class="container-fluid">
-        <div id="entrées" class="row menu justify-content-around">
+        <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
+            <img class="pt-3" src="assets/salades.jpg">
+            <div class="card-body">
+                <span class="card-title fw-bold fs-5">Salade & Riz Tartare</span>
+                <p class="card-text text-muted fst-italic">Grand bold de riz recouvert de
+                    poisson/poulet, d'avocat, de sésame et d'omelette.</p>
 
-            <div class="card text-center mt-5 mb-5 col-lg-3 col-12" >
-                <img class="pt-3" src="assets/salades.jpg">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">Salade & Riz Tartare</h5>
-                    <p class="card-text text-muted fst-italic">Grand bold de riz recouvert de
-                        poisson/poulet, d'avocat, de sésame et d'omelette.</p>
+                <div class="d-flex justify-content-evenly">
+                    <button type="button" class="btn fw-bold " data-bs-toggle="modal" data-bs-target="#salades">
+                        Commander
+                    </button>
+                    <span class="badge">8€</span>
+                </div>
+            </div>
+        </div>
 
-                    <div class="d-flex justify-content-evenly">
-                        <button type="button" class="btn fw-bold " data-bs-toggle="modal" data-bs-target="#salades">
-                            Commander
-                        </button>
-                        <span class="badge">8 €</span>
+        <div class="modal fade" id="salades" tabindex="-1" aria-labelledby="saladesLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bold" id="saladesLabel">Shushi Makers Le Havre</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <a class="text-dark text-decoration-none">À partir de 8€</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="modal fade" id="salades" tabindex="-1" aria-labelledby="saladesLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title fw-bold" id="lamanuLabel">Shushi Makers Le Havre</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-center">
-                            <a class="text-dark text-decoration-none">À partir de 8€</a>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
-                        </div>
+        <!--  -->
+        <!-- BOWLS -->
+        <!--  -->
+
+
+        <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
+            <img class="pt-3" src="assets/bowls.jpg">
+            <div class="card-body">
+                <span class="card-title fw-bold fs-5">Bowls & Carpaccios</span>
+                <p class="card-text text-muted fst-italic">Grand bold de riz recouvert de
+                    poisson/poulet/légumes et Fines tranches de poisson cru</p>
+
+                <div class="d-flex justify-content-evenly">
+                    <button type="button " class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#bowls">
+                        Commander
+                    </button>
+                    <span class="badge">10€</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="bowls" tabindex="-1" aria-labelledby="bowlsLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bold" id="bowlsLabel">Shushi Makers Le Havre</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <a class="text-dark text-decoration-none">À partir de 10€</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!--  -->
-            <!-- BOWLS -->
-            <!--  -->
+        <!--  -->
+        <!-- ENTREES CHAUDES -->
+        <!--  -->
 
+        <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
+            <img class="pt-3" src="assets/chaud.jpg">
+            <div class="card-body">
+                <p class="card-title fw-bold fs-5">Entrées Chaudes</p>
+                <p class="card-text text-muted fst-italic pb-4">Nems, salade de Nouilles ...</p>
 
-            <div class="card text-center mt-5 mb-5 col-lg-3 col-12" >
-                <img class="pt-3" src="assets/bowls.jpg">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">Bowls & Carpaccios</h5>
-                    <p class="card-text text-muted fst-italic">Grand bold de riz recouvert de
-                        poisson/poulet/légumes et Fines tranches de poisson cru</p>
-
-                    <div class="d-flex justify-content-evenly">
-                        <button type="button " class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#bowls">
-                            Commander
-                        </button>
-                        <span class="badge">10 €</span>
-                    </div>
+                <div class="d-flex justify-content-evenly">
+                    <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#chaud">
+                        Commander
+                    </button>
+                    <span class="badge">6,50€</span>
                 </div>
             </div>
+        </div>
 
-            <div class="modal fade" id="bowls" tabindex="-1" aria-labelledby="bowlsLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title fw-bold" id="lamanuLabel">Shushi Makers Le Havre</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-center">
-                            <a class="text-dark text-decoration-none">À partir de 10€</a>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
-                        </div>
+
+        <div class="modal fade" id="chaud" tabindex="-1" aria-labelledby="chaudLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title fw-bold fs-5" id="chaudLabel">Shushi Makers Le Havre</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                </div>
-            </div>
-
-            <!--  -->
-            <!-- ENTREES CHAUDES -->
-            <!--  -->
-
-            <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
-                <img class="pt-3" src="assets/chaud.jpg">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">Entrées Chaudes</h5>
-                    <p class="card-text text-muted fst-italic pb-4">Nems, salade de Nouilles ...</p>
-
-                    <div class="d-flex justify-content-evenly">
-                        <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#chaud">
-                            Commander
-                        </button>
-                        <span class="badge">6,50€</span>
+                    <div class="modal-body text-center">
+                        <a class="text-dark text-decoration-none">À partir de 6,50€</a>
                     </div>
-                </div>
-            </div>
-
-
-            <div class="modal fade" id="chaud" tabindex="-1" aria-labelledby="chaudLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title fw-bold" id="lamanuLabel">Shushi Makers Le Havre</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-center">
-                            <a class="text-dark text-decoration-none">À partir de 6,50€</a>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
-                        </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+
     <!--  -->
     <!-- END -->
     <!--  -->
 
-    <div class="contrainer-fluid">
-        <div class="row d-lg-block d-none pt-5">
-        </div>
+
+    <div class="row-fluid d-lg-block d-none pt-5">
     </div>
 
     <!--  -->
     <!-- PLATS -->
     <!--  -->
 
-    <div class="container-fluid">
-        <div id="plats" class="row menu justify-content-around">
 
-            <!--  -->
-            <!-- SUSHI -->
-            <!--  -->
+    <div id="plats" class="row menu justify-content-around">
 
-            <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
-                <img class="pt-3" src="assets/sushi.jpg">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">Sushi</h5>
-                    <p class="card-text text-muted fst-italic pb-4">Tranche de poisson sur boule de riz
-                    </p>
+        <!--  -->
+        <!-- SUSHI -->
+        <!--  -->
 
-                    <div class="d-flex justify-content-evenly">
-                        <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#sushi">
-                            Commander
-                        </button>
-                        <span class="badge">3,90€</span>
+        <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
+            <img class="pt-3" src="assets/sushi.jpg">
+            <div class="card-body">
+                <p class="card-title fw-bold fs-5">Sushi</p>
+                <p class="card-text text-muted fst-italic pb-4">Tranche de poisson sur boule de riz
+                </p>
+
+                <div class="d-flex justify-content-evenly">
+                    <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#sushi">
+                        Commander
+                    </button>
+                    <span class="badge">3,90€</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="sushi" tabindex="-1" aria-labelledby="sushiLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title fw-bold fs-5" id="sushiLabel">Shushi Makers Le Havre</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <a class="text-dark text-decoration-none">À partir de 3,90€ la pièce</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="modal fade" id="sushi" tabindex="-1" aria-labelledby="sushiLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title fw-bold" id="lamanuLabel">Shushi Makers Le Havre</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-center">
-                            <a class="text-dark text-decoration-none">À partir de 3,90€ la pièce</a>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
-                        </div>
+        <!--  -->
+        <!-- MAKI -->
+        <!--  -->
+
+        <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
+            <img class="pt-3" src="assets/maki.jpg">
+            <div class="card-body">
+                <h5 class="card-title fw-bold">Maki</h5>
+                <p class="card-text text-muted fst-italic pb-4">Rouleau de riz garni enroulé d'algue.</p>
+
+                <div class="d-flex justify-content-evenly">
+                    <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#maki">
+                        Commander
+                    </button>
+                    <span class="badge">3,80€</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="maki" tabindex="-1" aria-labelledby="makiLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title fw-bold fs-5" id="makiLabel">Shushi Makers Le Havre</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <a class="text-dark text-decoration-none">À partir de 3,80€ la pièce</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!--  -->
-            <!-- MAKI -->
-            <!--  -->
+        <!--  -->
+        <!-- CALIFORNIA -->
+        <!--  -->
 
-            <div class="card text-center mt-5 mb-5 col-lg-3 col-12" >
-                <img class="pt-3" src="assets/maki.jpg">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">Maki</h5>
-                    <p class="card-text text-muted fst-italic pb-4">Rouleau de riz garni enroulé d'algue.</p>
 
-                    <div class="d-flex justify-content-evenly">
-                        <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#maki">
-                            Commander
-                        </button>
-                        <span class="badge">3,80€</span>
-                    </div>
+        <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
+            <img class="pt-3" src="assets/california.jpg">
+            <div class="card-body">
+                <p class="card-title fw-bold fs-5">California</p>
+                <p class="card-text text-muted fst-italic pb-4">Maki retourné avec sésame.</p>
+
+                <div class="d-flex justify-content-evenly">
+                    <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#california">
+                        Commander
+                    </button>
+                    <span class="badge">5,40€</span>
                 </div>
             </div>
+        </div>
 
-            <div class="modal fade" id="maki" tabindex="-1" aria-labelledby="makiLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title fw-bold" id="lamanuLabel">Shushi Makers Le Havre</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-center">
-                            <a class="text-dark text-decoration-none">À partir de 3,80€ la pièce</a>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
-                        </div>
+        <div class="modal fade" id="california" tabindex="-1" aria-labelledby="californiaLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title fw-bold fs-5" id="lamanuLabel">Shushi Makers Le Havre</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                </div>
-            </div>
-
-            <!--  -->
-            <!-- CALIFORNIA -->
-            <!--  -->
-
-
-            <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
-                <img class="pt-3" src="assets/california.jpg">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">California</h5>
-                    <p class="card-text text-muted fst-italic pb-4">Maki retourné avec sésame.</p>
-
-                    <div class="d-flex justify-content-evenly">
-                        <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#california">
-                            Commander
-                        </button>
-                        <span class="badge">5,40€</span>
+                    <div class="modal-body text-center">
+                        <a class="text-dark text-decoration-none">À partir de 5,40€ pièce.</a>
                     </div>
-                </div>
-            </div>
-
-            <div class="modal fade" id="california" tabindex="-1" aria-labelledby="californiaLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title fw-bold" id="lamanuLabel">Shushi Makers Le Havre</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-center">
-                            <a class="text-dark text-decoration-none">À partir de 5,40€ pièce.</a>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
-                        </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     <!--  -->
     <!-- END -->
     <!--  -->
 
-    <div class="contrainer-fluid">
-        <div class="row d-lg-block d-none pt-5">
-        </div>
+
+    <div class="row-fluid d-lg-block d-none pt-5">
     </div>
+
 
     <!--  -->
     <!-- DESSERTS -->
     <!--  -->
 
-    <div class="container-fluid">
-        <div id="desserts" class="row menu justify-content-around">
 
-            <!--  -->
-            <!-- DESSERTS -->
-            <!--  -->
+    <div id="desserts" class="row menu justify-content-around">
 
-            <div class="card text-center mt-5 mb-5 col-lg-3 col-12" >
-                <img class="pt-3" src="assets/desserts.jpg">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">Desserts</h5>
-                    <p class="card-text text-muted fst-italic">Cerise sur un gâteau de riz ou petite faiblesse qui vous perdra</p>
+        <!--  -->
+        <!-- DESSERTS -->
+        <!--  -->
 
-                    <div class="d-flex justify-content-evenly">
-                        <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#dessert">
-                            Commander
-                        </button>
-                        <span class="badge">7€</span>
+        <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
+            <img class="pt-3" src="assets/desserts.jpg">
+            <div class="card-body">
+                <p class="card-title fw-bold fs-5">Desserts</p>
+                <p class="card-text text-muted fst-italic">Cerise sur un gâteau de riz ou petite faiblesse qui vous
+                    perdra</p>
+
+                <div class="d-flex justify-content-evenly">
+                    <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#dessert">
+                        Commander
+                    </button>
+                    <span class="badge">7€</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="dessert" tabindex="-1" aria-labelledby="dessertLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title fw-bold fs-5" id="lamanuLabel">Shushi Makers Le Havre</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <a class="text-dark text-decoration-none">À partir de 7€ la pièce</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="modal fade" id="dessert" tabindex="-1" aria-labelledby="dessertLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title fw-bold" id="lamanuLabel">Shushi Makers Le Havre</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-center">
-                            <a class="text-dark text-decoration-none">À partir de 7€ la pièce</a>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
-                        </div>
+        <!--  -->
+        <!-- SOYA -->
+        <!--  -->
+
+        <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
+            <img class="pt-3" src="assets/soya.jpg">
+            <div class="card-body">
+                <p class="card-title fw-bold fs-5">Soya</p>
+                <p class="card-text text-muted fst-italic pb-4">Rouleau enroulé d'une feuille de soja.</p>
+
+                <div class="d-flex justify-content-evenly">
+                    <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#soya">
+                        Commander
+                    </button>
+                    <span class="badge">6€</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="soya" tabindex="-1" aria-labelledby="soyaLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title fw-bold fs-5" id="lamanuLabel">Shushi Makers Le Havre</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <a class="text-dark text-decoration-none">À partir de 6€ la pièce</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <!--  -->
-            <!-- SOYA -->
-            <!--  -->
+        <!--  -->
+        <!-- FRESH -->
+        <!--  -->
 
-            <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
-                <img class="pt-3" src="assets/soya.jpg">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">Soya</h5>
-                    <p class="card-text text-muted fst-italic pb-4">Rouleau enroulé d'une feuille de soja.</p>
+        <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
+            <img class="pt-3" src="assets/fresh.jpg">
+            <div class="card-body">
+                <p class="card-title fw-bold fs-5">Salade & Riz Tartare</p>
+                <p class="card-text text-muted fst-italic pb-4">Roll enroulé d'une crèpe japonaise.</p>
 
-                    <div class="d-flex justify-content-evenly">
-                        <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#soya">
-                            Commander
-                        </button>
-                        <span class="badge">6€</span>
-                    </div>
+                <div class="d-flex justify-content-evenly">
+                    <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#fresh">
+                        Commander
+                    </button>
+                    <span class="badge">8€</span>
                 </div>
             </div>
+        </div>
 
-            <div class="modal fade" id="soya" tabindex="-1" aria-labelledby="soyaLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title fw-bold" id="lamanuLabel">Shushi Makers Le Havre</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-center">
-                            <a class="text-dark text-decoration-none">À partir de 6€ la pièce</a>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
-                        </div>
+        <div class="modal fade" id="fresh" tabindex="-1" aria-labelledby="freshLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <p class="modal-title fw-bold fs-5" id="lamanuLabel">Shushi Makers Le Havre</p>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
-                </div>
-            </div>
-
-            <!--  -->
-            <!-- FRESH -->
-            <!--  -->
-
-            <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
-                <img class="pt-3" src="assets/fresh.jpg">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">Salade & Riz Tartare</h5>
-                    <p class="card-text text-muted fst-italic pb-4">Roll enroulé d'une crèpe japonaise.</p>
-
-                    <div class="d-flex justify-content-evenly">
-                        <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#fresh">
-                            Commander
-                        </button>
-                        <span class="badge">8€</span>
+                    <div class="modal-body text-center">
+                        <a class="text-dark text-decoration-none">À partir de 8€ la pièce</a>
                     </div>
-                </div>
-            </div>
-
-            <div class="modal fade" id="fresh" tabindex="-1" aria-labelledby="freshLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title fw-bold" id="lamanuLabel">Shushi Makers Le Havre</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body text-center">
-                            <a class="text-dark text-decoration-none">À partir de 8€ la pièce</a>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
-                        </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Ajouter</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="contrainer-fluid">
-        <div class="row d-lg-block d-none pt-5">
-        </div>
+
+
+    <div class="row d-lg-block d-none pt-5">
     </div>
+
 
     <!--  -->
     <!-- BOISSONS -->
     <!--  -->
 
-    <div class="container-fluid">
-        <div id="boissons" class="row menu justify-content-around">
 
-            <div class="card text-center mt-5 mb-5 col-lg-3 col-12" >
-                <img class="pt-3" src="assets/boissons.jpg">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">Coca-Cola</h5>
-                    <p class="card-text text-muted fst-italic pb-4">Le doux parfum du sucre et du caramel.</p>
+    <div id="boissons" class="row menu justify-content-around">
 
-                    <div class="d-flex justify-content-evenly">
-                        <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#commander">
-                            Commander
-                        </button>
-                        <span class="badge">2,50€</span>
-                    </div>
+        <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
+            <img class="pt-3" src="assets/boissons.jpg">
+            <div class="card-body">
+                <p class="card-title fw-bold fs-5">Coca-Cola</p>
+                <p class="card-text text-muted fst-italic pb-4">Le doux parfum du sucre et du caramel.</p>
 
+                <div class="d-flex justify-content-evenly">
+                    <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#commander">
+                        Commander
+                    </button>
+                    <span class="badge">2,50€</span>
                 </div>
+
             </div>
+        </div>
 
-            <div class="card text-center mt-5 mb-5 col-lg-3 col-12" >
-                <img class="pt-3" src="assets/boissons.jpg">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">Perrier</h5>
-                    <p class="card-text text-muted fst-italic pb-4">De l'eau, mais en pétillant.</p>
+        <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
+            <img class="pt-3" src="assets/boissons.jpg">
+            <div class="card-body">
+                <p class="card-title fw-bold fs-5">Perrier</p>
+                <p class="card-text text-muted fst-italic pb-4">De l'eau, mais en pétillant.</p>
 
-                    <div class="d-flex justify-content-evenly">
-                        <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#commander">
-                            Commander
-                        </button>
-                        <span class="badge">2,50€</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card text-center mt-5 mb-5 col-lg-3 col-12" >
-                <img class="pt-3" src="assets/boissons.jpg">
-                <div class="card-body">
-                    <h5 class="card-title fw-bold">Orangina</h5>
-                    <p class="card-text text-muted fst-italic pb-4">Une douce saveur d'orange.</p>
-
-                    <div class="d-flex justify-content-evenly">
-                        <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#commander">
-                            Commander
-                        </button>
-                        <span class="badge">2,50€</span>
-                    </div>
+                <div class="d-flex justify-content-evenly">
+                    <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#commander">
+                        Commander
+                    </button>
+                    <span class="badge">2,50€</span>
                 </div>
             </div>
         </div>
+
+        <div class="card text-center mt-5 mb-5 col-lg-3 col-12">
+            <img class="pt-3" src="assets/boissons.jpg">
+            <div class="card-body">
+                <p class="card-title fw-bold fs-5">Orangina</p>
+                <p class="card-text text-muted fst-italic pb-4">Une douce saveur d'orange.</p>
+
+                <div class="d-flex justify-content-evenly">
+                    <button type="button" class="btn fw-bold" data-bs-toggle="modal" data-bs-target="#commander">
+                        Commander
+                    </button>
+                    <span class="badge">2,50€</span>
+                </div>
+            </div>
+        </div>
+
 
         <div class="modal fade" id="commander" tabindex="-1" aria-labelledby="commanderLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title fw-bold" id="lamanuLabel">Shushi Makers Le Havre</h5>
+                        <p class="modal-title fw-bold fs-5" id="lamanuLabel">Shushi Makers Le Havre</p>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-center">
@@ -514,23 +511,30 @@
             </div>
         </div>
     </div>
+
+
+
+
+    <div class="bottom row d-lg-block d-none pt-5">
     </div>
 
-    <div class="contrainer-fluid bottom">
-        <div class="bottom row d-lg-block d-none pt-5">
-        </div>
-    </div>
 
     <!--  -->
     <!-- FOOTER -->
     <!--  -->
 
-    <div class="contrainer-fluid footer">
-        <div class="row pt-5">
-            <span class="copyight text-center">
-                Copyright © 2018 Aestria. All rights reserved.</span>
+
+    <div class="row footer pt-5 pb-5">
+        <div class="col-lg-12 col-12 d-flex justify-content-evenly">
+            <span>Copyright © 2018 Aestria. All rights reserved.</span>
+            <span>Mentions Légales</span>
+ 
+                <img class="rs" src="assets/insta.png">
+                <img class="rs" src="assets/twitter.png">
+
         </div>
     </div>
+
 
 
 
